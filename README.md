@@ -1,8 +1,21 @@
 # Fennec: a sub-10μW speech understanding SoC
 
-## Introduction
+Fennec is an ultra-low-power, wide-dynamic-range, fully-integrated SoC for on-device spoken language understanding (SLU).
 
-Fennec is an ultra-low-power, wide-dynamic-range, fully-integrated SoC for spoken language understanding.
+**Design highlights:**
+- Ultra low power: <10μW power consumption when continuously processing incoming audio stream in real-time.
+- Wide dynamic range (DR): >75dB usable system-leve dynamic range (DR<sub>SoC</sub>).
+- Streaming SLU: 
+- Fully integrated: both analog frontend (AFE) and digital backend (DBE) are integrated on-chip; the only external component required is an analog MEMS microphone.
+
+**Key enabling techniques:**
+- Analog feature extractor (FEx) with global and per-channel automatic gain control (AGC).
+- Python-based FEx behavioral model with hardware-aware training (HAT).
+- RNN accelerator exploiting fine-grained temporal sparsity and temporal pooling.
+
+## This repo
+
+This repo contains 
 
 ## Citations
 If you find our work useful, please consider citing our papers:
