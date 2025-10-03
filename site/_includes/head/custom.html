@@ -1,0 +1,7 @@
+<link rel='icon' href='assets/images/icon.png'>
+
+{% if page.page_css %}
+  {% for stylesheet in page.page_css %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {% endfor %}
+{% endif %}

@@ -1,0 +1,4 @@
+main:
+  - title: "External Link"
+    url: https://google.com
+    target: _blank

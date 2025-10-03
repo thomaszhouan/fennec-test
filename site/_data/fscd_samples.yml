@@ -1,0 +1,20 @@
+- sentence: Turn the bedroom heat up
+  action: increase
+  object: heat
+  location: bedroom
+- sentence: OK now switch the main language to Chinese
+  action: change language
+  object: Chinese
+  location: none
+- sentence: I need to practice my German
+  action: change language
+  object: German
+  location: none
+- sentence: Turn off the kitchen lights
+  action: deactivate
+  object: lights
+  location: kitchen
+- sentence: Could you increase the heating?
+  action: increase
+  object: heat
+  location: none

@@ -1,0 +1,42 @@
+/* override minimal mistakes' defaults */
+article.page {
+    float: left;
+    width: 100%;
+}
+::selection {
+    background: #ffe38f;
+    color: #000000;
+}
+p.author-list {
+    text-align: center;
+    font-style: italic;
+    font-size: 110%;
+}
+p.affiliation-list {
+    text-align: left;
+    color: #888;
+    font-size: 80%;
+}
+p {
+    text-align: justify;
+}
+.image-with-caption {
+    text-align: center;
+    font-style: italic;
+}
+.image-with-caption img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+table p {
+    margin-bottom: 0 !important;
+}
+table td,th {
+    padding: 0.2em;
+}
