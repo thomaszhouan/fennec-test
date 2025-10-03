@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: /fennec-test # the subpath of your site, e.g. /blog
 url: https://thomaszhouan.github.io # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  thomaszhouan
+github_username: thomaszhouan
 
 # Build settings
 theme: minimal-mistakes-jekyll

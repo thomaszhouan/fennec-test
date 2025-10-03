@@ -54,7 +54,7 @@ Its most distinctive feature is its unusually large ears to listen for undergrou
 {: .notice--info}
 
 {: .image-with-caption #fig-fox}
-![chip-logo](/assets/images/fennec.png){: width="40%"}
+![chip-logo]({{ "/assets/images/fennec.png" | relative_url }}){: width="40%"}
 A {{ site.title | downcase }} fox.
 
 ---
@@ -70,7 +70,7 @@ and distinguish between a handful of output classes.
 requiring the processing of *sentence-level context* of several seconds and classifying *more than 30 classes*, as shown in the [figure](#fig-task) below.
 
 {: .image-with-caption #fig-task}
-![chip-logo](/assets/images/1_1_Task.png){: width="70%"}
+![chip-logo]({{ "/assets/images/1_1_Task.png" | relative_url }}){: width="70%"}
 Different audio classification tasks for voice interface on the extreme edge.
 
 An end-to-end SLU system infers user intent directly from continuous spoken sentences.
